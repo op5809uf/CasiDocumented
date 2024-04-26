@@ -1,8 +1,8 @@
 :root {
   --primary-color: #687e53;
   --hero-color: #121e0d;
-  --accent-color: #fd6519;
-  --buttons-color: #687e53;
+  --accent-color: #687e53;
+  --buttons-color: #fd6519;
   --active-color: rgb(255, 255, 255);
   --heading-font: "Big Carlson", serif;
   --text-font: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
@@ -13,7 +13,8 @@ body {
 }
 h1 {
   font-family: var(--heading-font);
-  font-size: 96px;
+  text-align: center;
+  font-size: 80px;
   font-weight: bold;
   color: var(--primary-color);
 }
@@ -26,8 +27,18 @@ h2 {
 h3 {
   font-family: var(--heading-font);
   font-weight: bold;
-  color: var(--primary-color);
-  font-size: 60px;
+  color: var(--active-color);
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  color: var(--buttons-color);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 p {
@@ -220,24 +231,7 @@ hr {
   color: var(--accent-color);
 }
 
-.btn-branding {
-  font-size: 18px;
-  border-radius: 4px;
-  color: var(--hero-color);
-  line-height: 27px;
-  padding: 12px;
-  background: var(--buttons-color);
-  margin: 20px 0;
-}
-.btn-branding-outline {
-  font-size: 18px;
-  border: 1px solid var(--buttons-color);
-  border-radius: 4px;
-  color: var(--buttons-color);
-  line-height: 27px;
-  padding: 20px 50px;
-}
-.btn-branding-contact {
+.btn-branding-episode {
   font-size: 18px;
   border-radius: 4px;
   color: var(--hero-color);
@@ -245,6 +239,14 @@ hr {
   padding: 25px 30px;
   background: var(--buttons-color);
   margin: 20px 0;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.btn-branding-episode a:hover {
+  background-color: var(--active-color);
+  transition: all 100ms ease-in-out;
 }
 
 .pic-about {
