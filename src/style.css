@@ -34,7 +34,7 @@ p {
   font-family: var(--text-font);
   font-size: 30px;
   font-weight: normal;
-  color: var(--accent-color);
+  color: var(--active-color);
   line-height: 1.5;
 }
 
