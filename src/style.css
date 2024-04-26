@@ -264,13 +264,13 @@ footer {
 
 footer .contact-box {
   background: var(--hero-color);
-  padding: 20px 120px;
+  padding: 60px 60px;
 }
 
 footer .social-links {
   font-size: 50px;
   padding-top: 20px;
-  padding-left: 120px;
+  padding-left: 60px;
 }
 
 footer .social-links a {
@@ -283,13 +283,8 @@ footer .social-links a:hover {
 }
 
 footer h2 {
-  font-size: 35px;
-}
-
-footer p {
-  font-size: 20px;
-  margin-top: -15px;
-  color: var(--buttons-color);
+  font-size: 30px;
+  padding-top: 28px;
 }
 
 /* wrapper for work pages */
