@@ -1,7 +1,7 @@
 :root {
   --primary-color: #687e53;
   --hero-color: #121e0d;
-  --accent-color: #c72f00;
+  --accent-color: #fd6519;
   --buttons-color: #687e53;
   --active-color: rgb(255, 255, 255);
   --heading-font: "Big Carlson", serif;
@@ -40,11 +40,12 @@ p {
 
 .logo-image {
   width: 200px;
-  height: 100px;
+  height: 200px;
   border-radius: 0%;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 50px;
+  margin-bottom: -105px;
 }
 
 .favicon-image {
