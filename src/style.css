@@ -1,13 +1,16 @@
 :root {
-  --primary-color: rgb(169, 198, 56);
-  --hero-color: rgb(234, 238, 163);
-  --accent-color: rgb(2, 2, 2);
-  --buttons-color: rgb(81, 133, 61);
+  --primary-color: #687e53;
+  --hero-color: #121e0d;
+  --accent-color: #c72f00;
+  --buttons-color: #687e53;
   --active-color: rgb(255, 255, 255);
   --heading-font: "Big Carlson", serif;
   --text-font: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 }
 
+body {
+  background-color: var(--hero-color);
+}
 h1 {
   font-family: var(--heading-font);
   font-size: 96px;
@@ -101,9 +104,24 @@ nav h3 {
 
 /* hero */
 
-.hero {
+/*.hero {
   background-color: var(--active-color);
   text-align: center;
+}*/
+
+/* regular images 
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  height: auto;
+}*/
+.hero-image {
+  width: auto;
+  height: 100vh;
+  size: cover;
+  position: center center;
 }
 
 .hero-index {
@@ -226,18 +244,6 @@ hr {
   padding: 25px 30px;
   background: var(--buttons-color);
   margin: 20px 0;
-}
-
-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 500px;
-  height: auto;
-}
-
-.pic-homepage {
-  width: 300px;
 }
 
 .pic-about {
