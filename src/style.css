@@ -1,8 +1,8 @@
 :root {
   --primary-color: #687e53;
   --hero-color: #121e0d;
-  --accent-color: #687e53;
-  --buttons-color: #fd6519;
+  --accent-color: #fd6519;
+  --buttons-color: #aec49a;
   --active-color: rgb(255, 255, 255);
   --heading-font: "Big Carlson", serif;
   --text-font: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
@@ -35,7 +35,7 @@ h3 {
 h4 {
   font-family: var(--heading-font);
   font-weight: bold;
-  color: var(--buttons-color);
+  color: var(--accent-color);
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
@@ -136,38 +136,6 @@ img {
   position: center center;
 }
 
-.hero-index {
-  padding: 20px 20px 0px 20px;
-  margin-top: 30px;
-}
-
-.hero-about {
-  padding: 120px 20px;
-}
-
-.hero-work {
-  padding: 80px 20px 80px 20px;
-  margin-top: 30px;
-}
-
-.hero h2 {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 15px;
-  margin-bottom: 20px;
-  word-wrap: break-word;
-  color: var(--buttons-color);
-}
-
-.hero p {
-  margin-bottom: 0;
-}
-
-.hero-about p {
-  font-size: 25px;
-  margin-right: 45px;
-}
-
 /* back to top */
 
 .hero-back {
@@ -204,17 +172,6 @@ hr {
   color: var(--hero-color);
 }
 
-.skills-list {
-  margin-left: 10px;
-  margin-right: -80px;
-}
-
-.skills {
-  list-style-type: square;
-  font-size: 25px;
-  color: var(--primary-color);
-}
-
 .example {
   font-size: 24px;
   line-height: 36px;
@@ -236,7 +193,7 @@ hr {
   border-radius: 4px;
   color: var(--hero-color);
   line-height: 27px;
-  padding: 25px 30px;
+  padding: 15px 30px;
   background: var(--buttons-color);
   margin: 20px 0;
   display: block;
