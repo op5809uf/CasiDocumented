@@ -28,7 +28,7 @@ h3 {
   font-family: var(--heading-font);
   font-weight: bold;
   color: var(--active-color);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ h4 {
   font-family: var(--heading-font);
   font-weight: bold;
   color: var(--accent-color);
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin-top: 10px;
 }
@@ -62,7 +62,7 @@ p {
 .favicon-image {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 0%;
   overflow: hidden;
   margin-top: 10px;
   margin-bottom: -120px;
@@ -114,21 +114,6 @@ nav h3 {
   color: var(--accent-color);
 }
 
-/* hero */
-
-/*.hero {
-  background-color: var(--active-color);
-  text-align: center;
-}*/
-
-/* regular images 
-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 500px;
-  height: auto;
-}*/
 .hero-image {
   width: auto;
   height: 100vh;
@@ -153,39 +138,8 @@ section a:active {
 
 /* about page */
 
-.about-me {
-  color: var(--buttons-color);
-}
-
-.details {
-  font-size: 34px;
-  font-weight: 500;
-  color: var(--buttons-color);
-  padding-top: 60px;
-}
-
-.bio {
-  margin-left: 20px;
-}
-
 hr {
   color: var(--hero-color);
-}
-
-.example {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 600;
-  padding-top: 15px;
-}
-.example-description {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.link {
-  color: var(--accent-color);
 }
 
 .btn-branding-episode {
@@ -201,18 +155,9 @@ hr {
   text-align: center;
 }
 
-.btn-branding-episode a:hover {
-  background-color: var(--active-color);
+.btn-branding-episode:hover {
+  background-color: var(--accent-color);
   transition: all 100ms ease-in-out;
-}
-
-.pic-about {
-  width: 400px;
-  border-radius: 6px;
-}
-
-.project-description {
-  padding: 120px 60px;
 }
 
 /* footer */
@@ -244,40 +189,6 @@ footer .social-links a:hover {
 footer h2 {
   font-size: 30px;
   padding-top: 28px;
-}
-
-/* wrapper for work pages */
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-.one {
-  grid-column: 1;
-  grid-row: 1;
-}
-.two {
-  grid-column: 2;
-  grid-row: 1;
-}
-.three {
-  grid-column: 3;
-  grid-row: 1;
-}
-.four {
-  grid-column: 1;
-  grid-row: 2;
-}
-.five {
-  grid-column: 2;
-  grid-row: 2;
-}
-.six {
-  grid-column: 3;
-  grid-row: 2;
 }
 
 /* media 1 */
